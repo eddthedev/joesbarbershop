@@ -1,0 +1,33 @@
+#contact{
+  padding: 50px 0;
+  background: #FAFAFA;
+  text-align: center;
+  nav{
+    display: inline-block;
+    // margin: 0 auto 50px;
+    a{
+      text-align: center;
+      color: #000;
+      display: inline-block;
+      padding: 10px 20px 10px 0;
+      text-decoration: none;
+    }
+  }
+  .social-media{
+    margin: 0 0 20px;
+    padding: 0;
+    li{
+      display: inline-block;
+      padding: 20px;
+      a{
+        color: #000;
+        &:hover{
+          color: red;
+        }
+      }
+    }
+  }
+  .copyright{
+    color: #000;
+  }
+}

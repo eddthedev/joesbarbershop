@@ -1,0 +1,30 @@
+#about-area{
+  padding: 100px 0;
+  background: #eee;
+}
+.aboutGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 1em;
+  grid-auto-rows: minmax(200px, auto);
+}
+.thedis{
+  padding: 100px 0;
+  h2{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+  }
+  p{
+  padding: 10px 20px 10px 0;;
+  }
+}
+.guy{
+  background-image: url("https://www.menshairstylestoday.com/wp-content/uploads/2015/11/Hot-Hipster-Hairstyles-8.jpg");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  max-width: 750px;
+}

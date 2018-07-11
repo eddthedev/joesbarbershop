@@ -1,0 +1,51 @@
+#services{
+  color: white;
+  background: #1E0B00;
+  text-align: center;
+  padding: 100px 0;
+}
+.pricing{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Oswald', sans-serif;
+  // letter-spacing: .2rem;
+
+}
+.title{
+  font-size: 1.5rem;
+  margin-bottom: 1.7rem;
+  // letter-spacing:
+  font-family: 'Oswald', sans-serif;
+}
+.cutsShaves{
+  // text-align: center;
+  // line-height: 1.5rem;
+  ul{
+    li{
+      text-transform: capitalize;
+      width: 50%;
+      display: inline-block;
+      vertical-align: bottom;
+      padding-bottom: 12px;
+      font-size: 1.1rem;
+      span{
+        width: 50%;
+        margin: 0;
+        font-size: 1rem;
+        float: right;
+        display: block;
+        vertical-align: top;
+        text-align: right;
+        padding-left: 40px;
+
+
+      }
+    }
+  }
+}
+.comment{
+  margin-top: 3.5rem;
+  h5{
+    // font-size:
+  }
+}

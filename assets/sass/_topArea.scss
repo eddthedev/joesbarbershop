@@ -1,0 +1,35 @@
+#top-area{
+  background: linear-gradient(50deg,rgba(0,0,0,.0) 0,#002d77 100%);
+  background-image: linear-gradient(50deg,rgba(0,0,0,.0) 0,#000 100%),url("http://yesofcorsa.com/wp-content/uploads/2017/11/Barbershop-Desktop-Wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  .container{
+    .title-wrap{
+        padding: 200px 0;
+      .jumbotron{
+        background: none;
+
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif;
+
+        h1{
+          text-transform: uppercase;
+            letter-spacing: .5rem;
+            padding: 0 0 20px;
+            text-align: center;
+          }
+          p{
+            // padding-right: 150px;
+            text-transform: capitalize;
+            text-align: center;
+            letter-spacing: .2rem;
+          }
+      }
+    }
+  }
+}
